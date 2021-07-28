@@ -17,8 +17,8 @@ function firstQuestion(){
         title: 'Ơ kìa! Uyên quần hoa à ^^',
         text: 'Cái này phải trả lời thật nhá!',
         imageUrl: 'img/uyen.jpg',
-        imageWidth: 310,
-        imageHeight: 310,
+        imageWidth: 200,
+        imageHeight: 200,
         background: '#fff url("img/iput-bg.jpg")',
         imageAlt: 'Custom image',
       }).then(function(){
@@ -124,8 +124,8 @@ $('#yes').click(function() {
                 title: 'Tớ biết tớ cũng đáng yêu mà hihi!',
                 text: "Nhắn tin rủ chơi game ngay không tớ lại dỗi",
                 imageUrl: "img/hung.jpg",
-                imageWidth: 300,
-                imageHeight: 300,
+                imageWidth: 200,
+                imageHeight: 200,
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
                     window.location = 'https://www.facebook.com/HDJMedia/';
